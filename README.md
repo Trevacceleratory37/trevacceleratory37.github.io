@@ -1,81 +1,83 @@
 # Hephzibah Behulah — Cyber Systems Lab
 
-A static GitHub Pages portfolio presented as an interactive OSINT-style systems map.
+A static GitHub Pages portfolio presented as an interactive horizontal OSINT-style systems map.
 
-## Structure
+## Navigation
 
-The tree is the navigation. The interface keeps the portfolio, lab, learning resources and professional links in one connected system.
+The tree is the navigation. The primary branches are:
 
-### Six primary branches
+- ABOUT — profile, timeline, engineering, cybersecurity, data and philosophy
+- WORK — Elektroniker, aviation systems, web development, data analytics, research and technology stack
+- LAB — reconnaissance, web security, security testing, network/OSINT, training labs, ethical tool terminal and Kali/WSL2 toolkit
+- PROJECTS — pentest toolkit, data analytics, secure web, systems monitor, security blog and GitHub repositories
+- PORTFOLIO — skill matrix, hosting/deployment and Python compiler
+- KNOWLEDGE — fundamentals, cyber learning, data learning, quizzes/games, resources and study notes
+- CONTACT — email, GitHub, LinkedIn, blog, GitBook and public social channels
 
-- **ABOUT** — profile, engineering, cybersecurity, data and philosophy
-- **WORK** — electronics, aviation systems, web development and independent research
-- **LAB** — recon, web security, security testing, network/OSINT, training labs and browser terminal
-- **PROJECTS** — pentest toolkit, data analytics, secure web, systems monitor and security blog
-- **KNOWLEDGE** — fundamentals, learning hub, data learning, quizzes/games and study notes
-- **CONTACT** — GitHub, LinkedIn, blog, GitBook, email and public identity
+## Interactive features
 
-## Interface improvements
+### Horizontal tree
+D3 renders the navigation as a horizontal relationship tree. Children grow to the right. Drag to pan, scroll to zoom, Fit to center, and click a node to expand/collapse or inspect it.
 
-- OSINT-style horizontal relationship map with color-coded node families.
-- Futuristic dark technical visual language with restrained scanline treatment.
-- Responsive layout for desktop, tablet and mobile.
-- Side node inspector with safe external-link handling.
-- Search now checks node names, descriptions and tags and reveals matching paths.
-- `/` focuses search.
-- Enter/Space activates a focused node.
-- Escape closes the inspector and returns focus.
-- Fit, Expand all, Collapse and Reset controls.
-- Reduced-motion support.
-- Accessible labels and live status announcements.
-- No fake live metrics or unverified claims.
+### Ethical Tool Terminal
+The site includes a browser-safe terminal containing 50+ named tools and utilities, including Nmap, Masscan, Rustscan, Amass, Gobuster, ffuf, Nuclei, Burp Suite, Metasploit, SQLmap, Hydra, Hashcat, Wireshark, Shodan and more.
 
-## Data model
+The terminal is functional as an educational simulator: commands are parsed, tools can be selected or searched, and deterministic synthetic output is displayed. It does not perform real scans, credential attacks, DNS queries or network traffic from a visitor's browser.
 
-All navigation content lives in `js/tree-data.js`. The renderer is data-driven.
+### Cyber Defender Quiz
+The KNOWLEDGE → QUIZZES / GAMES node launches an interactive cybersecurity quiz with scoring and replay. Topics include OSI/networking, HTTP, MFA, authentication, DNS, phishing and Linux.
 
-A leaf can contain `description`, `content`, `tags`, `links` and `ethics`. Add nodes to the data file instead of hard-coding new navigation into the renderer.
+### Python Compiler
+PORTFOLIO → PYTHON COMPILER links to OneCompiler for Python demonstrations.
 
-## Security and privacy
+## Profile content
 
-The browser terminal is an educational simulation. GitHub Pages cannot execute local Kali commands. Real commands belong in the local Kali/WSL2 toolkit.
+Public profile:
+- Ephzibah Behulah
+- Isaac Oluwole Adigun
+- Elektroniker | Cybersecurity Student | Web Developer
 
-Security tooling is presented for authorized labs, CTFs, owned systems and permitted assessments only.
+Timeline:
+- 2023 - Present — Elektroniker @ Centerline Design, Hamburg; Airbus systems and lighting installations
+- 2022 - 2026 — BSc Cybersecurity @ IU Internationale Hochschule; network security, ethical hacking and cryptography
+- 2023 — Data Analytics @ ReDI School Hamburg; Python, Pandas and BigQuery
 
-The public tree intentionally avoids unnecessary personal information. The email node contains no public address by default.
+Skills and tools include HTML5, CSS3, JavaScript, Tailwind CSS, Figma, GitHub, Python, cPanel, Namecheap, Google Colab, BigQuery, Netlify, Lighthouse, SEO, Git Sync, Agile and Scrum.
 
-## Offline / PWA
+## Resources
 
-The service worker is now **v6**. It caches the local application shell and can cache successful responses from the listed third-party CDNs after they have been requested.
+- PortSwigger Web Security Academy
+- OWASP Cheat Sheets
+- Hack The Box
+- Kaggle datasets
+- Database Star
+- Open Library
+- Dummies
+- GenZ Bible
+- GitBook
+- Security blog
 
-This still does not guarantee a first-visit fully offline experience because external providers, browser cache policies and network conditions are outside the site's control. For a completely independent offline build, self-host D3, AOS, Font Awesome, Tailwind and fonts, or remove unused dependencies.
+## Privacy and responsible use
 
-## SEO
+Security tooling is presented for authorized learning, CTFs, owned systems and permitted assessments. The browser terminal is intentionally simulated.
 
-The site includes:
+The contact area contains the supplied public email address and public social links. Newsletter wording is GDPR-conscious and avoids hidden or pre-checked consent.
 
-- custom-domain canonical URL
-- Open Graph metadata
-- robots.txt
-- sitemap.xml
-- JSON-LD WebSite metadata
-- responsive viewport metadata
+## Technical structure
 
-## Deployment
+- index.html — application shell and navigation
+- css/osint-tree.css — dark futuristic visual system, responsive styles and print stylesheet
+- js/tree-data.js — all navigation and content data
+- js/tree-loader.js — D3 rendering, search, zoom, pan and node interaction
+- js/lab-tools.js — 50+ tool browser terminal simulator
+- js/cyber-game.js — cybersecurity quiz game
+- sw.js — offline/cache layer
+- manifest.webmanifest — web-app metadata
+- CNAME — custom domain
+- robots.txt / sitemap.xml — crawler guidance
 
-No package manager or build step is required. The site is designed for GitHub Pages. The custom domain is stored in `CNAME`.
-
-## Main files
-
-- `index.html` — semantic application shell
-- `css/osint-tree.css` — visual system and responsive styles
-- `js/tree-data.js` — navigation and content data
-- `js/tree-loader.js` — D3 tree rendering and interactions
-- `sw.js` — cache/offline layer
-- `manifest.webmanifest` — installable web-app metadata
-- `CNAME` — custom domain
-- `robots.txt` / `sitemap.xml` — crawler guidance
+No package manager or build step is required. The project is designed for static GitHub Pages hosting.
 
 ## Content accuracy
 
-Descriptions are intentionally qualitative. Do not add live GitHub statistics, certifications, compliance claims or performance scores unless they can be verified.
+Descriptions are intended to reflect the supplied portfolio information. Do not add live statistics, certifications, compliance claims or security-testing results unless they can be verified.
