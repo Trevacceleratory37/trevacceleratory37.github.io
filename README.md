@@ -33,7 +33,7 @@ PORTFOLIO → PYTHON COMPILER links to OneCompiler for Python demonstrations.
 ## Profile content
 
 Public profile:
-- Ephzibah Behulah
+- Hephzibah Behulah
 - Isaac Oluwole Adigun
 - Elektroniker | Cybersecurity Student | Web Developer
 
